@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "testingsf"
+        },
+        "computeLocation": {
+            "value": "westeurope"
+        },
+        "adminUserName": {
+            "value": "adminolivier"
+        },
+        "adminPassword": {
+            "value": "Adminoli4!"
+        },
+        "nicName": {
+            "value": "NIC-testingsf"
+        },
+        "publicIPAddressName": {
+            "value": "testingsf-PubIP"
+        },
+        "dnsName": {
+            "value": "testingsf"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-testingsf"
+        },
+        "lbName": {
+            "value": "LB-testingsf"
+        },
+        "lbIPName": {
+            "value": "LBIP-testingsf"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdgtestingsf2001"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogstestingsf5672"
+        },
+        "sourceVaultValue": {
+            "value": "/subscriptions/a6e10cb0-79e5-4b68-af13-d17fc5f7505a/resourceGroups/testingVerhaegheO02/providers/Microsoft.KeyVault/vaults/testingVerhaegheO02"
+        },
+        "certificateUrlValue": {
+            "value": "https://testingverhaegheo02.vault.azure.net/secrets/testsf/7cb165d7da2e42128a611cad115f1863"
+        },
+        "certificateThumbprint": {
+            "value": "D2E3272DE220CA84069B48F6BE89CE338556343E"
+        },
+        "vmImageSku": {
+            "value": "16.04-LTS"
+        },
+        "vmImageVersion": {
+            "value": "latest"
+        },
+        "vmImagePublisher": {
+            "value": "Canonical"
+        },
+        "vmImageOffer": {
+            "value": "UbuntuServer"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        }
+    }
+}
