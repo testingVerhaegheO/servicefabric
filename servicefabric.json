@@ -665,7 +665,7 @@
                     }
                 ],
                 "provisioningState": "Default",
-                "reliabilityLevel": "Silver",
+                "reliabilityLevel": "Bronze",
                 "upgradeMode": "Automatic",
                 "vmImage": "Linux"
             },
