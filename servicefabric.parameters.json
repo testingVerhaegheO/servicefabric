@@ -5,9 +5,6 @@
         "clusterName": {
             "value": "testingsf"
         },
-        "computeLocation": {
-            "value": "westeurope"
-        },
         "adminUserName": {
             "value": "adminolivier"
         },
