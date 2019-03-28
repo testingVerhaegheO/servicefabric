@@ -39,7 +39,7 @@
         },
         "subnet0Prefix": {
             "type": "string",
-            "defaultValue": "172.16.1.0/24"
+            "defaultValue": "192.168.1.0/25"
         },
         "publicIPAddressName": {
             "type": "string",
@@ -76,7 +76,7 @@
         },
         "addressPrefix": {
             "type": "string",
-            "defaultValue": "172.16.0.0/16"
+            "defaultValue": "192.168.1.0/24"
         },
         "dnsName": {
             "defaultValue": "mijnschool",
